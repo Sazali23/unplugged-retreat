@@ -87,6 +87,66 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ===== Unplugged custom styles (start) ===== */
+
+/* -------------------- Layout: Flexbox containers -------------------- */
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+footer .social p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-area,
+aside,
+.features,
+.reviews,
+.mission,
+.contact-section,
+.faq {
+  display: flex;
+  justify-content: center;
+}
+
+.features .content-wrapper,
+.features-items,
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+/* ===== Unplugged custom styles (end) ===== */
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
