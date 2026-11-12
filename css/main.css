@@ -668,6 +668,70 @@ footer .social a {
   height: 100%;
 }
 
+/* -------------------- Finishing touches -------------------- */
+body {
+  margin: 0;
+  background-color: #202322;
+}
+
+header nav a:hover,
+footer .social a:hover {
+  opacity: .75;
+}
+
+.hero-area h1 {
+  margin: 0;
+}
+
+aside h3 {
+  margin: 0 0 15px;
+}
+
+aside .form-description p {
+  margin: 0;
+}
+
+.features h2 {
+  margin: 0 0 50px;
+}
+
+.features-items {
+  width: 100%;
+}
+
+.reviews h2 {
+  line-height: 1.2em;
+  margin-top: 0;
+}
+
+.reviews h3 {
+  margin-top: 0;
+}
+
+.mission h2,
+.contact-section h2 {
+  margin-top: 0;
+}
+
+.faq h2 {
+  margin-top: 0;
+  line-height: 1.2em;
+}
+
+input[type=button]:hover {
+  background-color: #202322;
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-area .content-wrapper {
+    padding: 60px 0;
+  }
+
+  .features .content-wrapper {
+    margin: 80px 0;
+  }
+}
+
 /* ===== Unplugged custom styles (end) ===== */
 
 
