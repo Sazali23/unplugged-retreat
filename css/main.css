@@ -144,6 +144,90 @@ aside,
   flex-flow: row wrap;
 }
 
+/* -------------------- Mobile layout: widths, margins & padding -------------------- */
+.content-wrapper {
+  width: 90%;
+}
+
+header {
+  padding: 15px 0;
+}
+
+.header-divider {
+  width: 100%;
+  margin: 15px 0;
+}
+
+header nav {
+  width: 60%;
+}
+
+header nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header .content-wrapper p {
+  margin: 0;
+}
+
+.hero-area .content-wrapper {
+  padding: 50px 0;
+}
+
+aside .content-wrapper {
+  margin: 40px 0;
+}
+
+.features .content-wrapper,
+.reviews .content-wrapper,
+.mission .content-wrapper,
+.contact-section .content-wrapper,
+.faq .content-wrapper {
+  margin: 50px 0;
+}
+
+.features article {
+  width: 70%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.features p {
+  margin: 0;
+}
+
+.reviews h3 {
+  width: 70%;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .contact {
+  margin-bottom: 30px;
+}
+
+footer .copyright {
+  margin-top: 40px;
+}
+
+.contact-content p {
+  margin: 0;
+}
+
+.contact-content > div,
+.faq-content {
+  margin-bottom: 30px;
+}
+
 /* ===== Unplugged custom styles (end) ===== */
 
 
