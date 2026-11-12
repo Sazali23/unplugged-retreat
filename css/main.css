@@ -555,6 +555,54 @@ input[type=button] {
   cursor: pointer;
 }
 
+/* -------------------- Responsive images -------------------- */
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+header figure {
+  width: 60%;
+}
+
+.hero-area {
+  background: url('../img/unplugged-retreat.jpg') center no-repeat #2a423a;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.features {
+  background: url('../img/unplugged-retreat-features.jpg') center no-repeat #202322;
+  background-size: cover;
+}
+
+.reviews figure {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  header figure {
+    width: 35%;
+  }
+
+  .reviews figure {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  header figure {
+    width: 25%;
+  }
+
+  .hero-area {
+    min-height: 600px;
+  }
+}
+
 /* ===== Unplugged custom styles (end) ===== */
 
 
