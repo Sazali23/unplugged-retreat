@@ -624,6 +624,21 @@ header figure {
   left: 0;
 }
 
+/* Map: padding-bottom = design height / breakpoint width */
+@media only screen and (min-width: 768px) {
+  .map figure {
+    padding-bottom: 58.6%;
+    /* 450px / 768px */
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .map figure {
+    padding-bottom: 37.5%;
+    /* 450px / 1200px */
+  }
+}
+
 /* ===== Unplugged custom styles (end) ===== */
 
 
