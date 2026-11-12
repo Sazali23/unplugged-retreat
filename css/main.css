@@ -639,6 +639,13 @@ header figure {
   }
 }
 
+/* -------------------- Icons -------------------- */
+.features i {
+  font-size: 3.75em;
+  /* 60px */
+  margin-bottom: 30px;
+}
+
 /* ===== Unplugged custom styles (end) ===== */
 
 
