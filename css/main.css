@@ -489,6 +489,72 @@ header nav li {
   }
 }
 
+/* -------------------- Colors, backgrounds & form -------------------- */
+header,
+footer {
+  background-color: #202322;
+}
+
+.header-divider {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+aside,
+.mission,
+.faq {
+  background-color: #527158;
+}
+
+.reviews,
+.contact-section {
+  background-color: #2a423a;
+}
+
+.features {
+  background-color: #202322;
+}
+
+.hero-area {
+  background-color: #2a423a;
+}
+
+footer .copyright p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: .75em;
+}
+
+.faq-content h4 {
+  line-height: 1.5em;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
 /* ===== Unplugged custom styles (end) ===== */
 
 
