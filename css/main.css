@@ -381,7 +381,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-  color: #e2e3ed;
+  color: #E9EAF1; /* *** was #e2e3ed - raised for 4.5:1 contrast */
 }
 
 ul,
@@ -390,7 +390,7 @@ ol {
 }
 
 a {
-  color: #e2e3ed;
+  color: #E9EAF1;
   text-decoration: none;
 }
 
@@ -453,8 +453,8 @@ header nav li {
     line-height: 1.25em;
   }
 
-  footer h4,
-  .contact-content h4 {
+  footer h3,
+  .contact-content h3 {
     font-size: 1.5em;
   }
 }
@@ -483,7 +483,7 @@ header nav li {
     /* 48px */
   }
 
-  .faq-content h4,
+  .faq-content h3,
   .faq-content p {
     font-size: 1.125em;
   }
@@ -524,7 +524,7 @@ footer .copyright p {
   font-size: .75em;
 }
 
-.faq-content h4 {
+.faq-content h3 {
   line-height: 1.5em;
 }
 
@@ -683,6 +683,7 @@ footer .social a:hover {
   margin: 0;
 }
 
+aside h2,
 aside h3 {
   margin: 0 0 15px;
 }
@@ -729,6 +730,40 @@ input[type=button]:hover {
 
   .features .content-wrapper {
     margin: 80px 0;
+  }
+}
+
+
+/* *** Accessibility updates: header hierarchy (aside h3 -> h2, h4 -> h3) */
+aside h2 {
+  font-size: 1.125em;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: .875em;
+}
+
+@media only screen and (min-width: 768px) {
+  aside h2 {
+    font-size: 1.5em;
+    line-height: 1.25em;
+  }
+
+  .faq-content h3 {
+    font-size: 1.125em;
+    line-height: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  aside h2 {
+    font-size: 1.875em;
+  }
+
+  .form label {
+    font-size: 1em;
   }
 }
 
